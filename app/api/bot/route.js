@@ -1,6 +1,6 @@
 import { Configuration, OpenAIApi } from 'openai'; // npm i openai
 
-export async function GET(request) {
+export async function POST(request) {
   const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
   });
